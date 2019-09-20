@@ -1,0 +1,11 @@
+<div class="container movie-page-container">
+    <input type="text" class="form-control movie-input" ng-model="filter" placeholder="Search Movie">
+    <select ng-model="sort" class="browser-default custom-select movie-input">
+        <option ng-repeat="sortField in sortFields" value="{{sortField.value}}">{{sortField.key}}</option>       
+    </select>
+    <div class="row">
+        <div class="movie-container">
+            <movie-list movies="movies" filter="filter" sort="sort"></movie-list>        
+        </div>
+    </div>
+</div>

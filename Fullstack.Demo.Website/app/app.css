@@ -1,0 +1,79 @@
+/* app css stylesheet */
+
+body{
+  background-color: aliceblue;
+}
+
+.movie-container{
+  width: 98%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right:1%;
+  margin-left:1%;
+
+}
+.movie-card{
+  margin-bottom: 1%;
+  width: 18rem;
+  padding-right:2%;
+  text-align: left;
+  margin-left: 2%;
+}
+.movie-input{
+  width: 18rem;
+  margin-bottom:2%;
+  font-weight: bold;
+}
+.movie-card-title{
+  font-weight: bold;
+}
+.movie-card-wrapper{
+  width: 18rem;
+  text-align: center;
+}
+.movie-card-header{
+  margin-bottom:0.2%;
+}
+
+.movie-card-text{
+  margin-top: 10%;
+}
+
+.movie-img{
+  border-radius: 10%;
+}
+
+.movie-list-group{
+  background-color: aliceblue;
+}
+.movie-list-group-item{
+  border:none;
+  justify-content: left!important;
+  align-items: unset!important;
+  background-color: lavender;
+  cursor: pointer;
+}
+
+.movie-img-container{
+  width: 10rem;
+  height: 10rem;
+}
+
+.movie-img-small{
+height:100%;
+width:100%}
+
+.movie-text-container{
+  margin-top:2%;
+  margin-left:2%;
+}
+
+.movie-page-container{
+  margin-top: 2%;
+}
+
+.movie-card-title{
+  color: purple;
+  font-weight: bold;
+}

@@ -1,0 +1,12 @@
+<div class="movie-card-wrapper">
+    <h1 class="movie-card-header">{{$ctrl.movie.title}}</h1>
+    <div class="card movie-card">
+      <img class="card-img-top movie-img" ng-src="{{$ctrl.movie.posterUrl}}" alt="{{$ctrl.movie.title}}">
+      <div class="card-body">
+        <div> <span class="movie-card-title">Year: </span>{{$ctrl.movie.year}}</div>
+        <div> <span class="movie-card-title">Director: </span>{{$ctrl.movie.director}}</div>
+  
+        <p class="card-text movie-card-text"> <span class="movie-card-title">Details: </span>{{$ctrl.movie.plot}}</p>
+      </div>
+    </div>
+  </div>
